@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+background-color: #F2F8F4 ;
+overflow: hidden;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+   width: 100%;
+   position: fixed;
+}
+
+
+li{
+display:inline ;
+
+
+}
+
+
+
+li a{
+    text-decoration:none;
+    color: #0173B6  ;
+    padding-right: 1rem;
+    
+}
+
+
+
+
+span{
+    padding-left: 1.2rem;
+
+}
+
+
+
+
+
+
+
+    .para{
+    padding-top: 12rem;
+    padding-left: 2rem;
+    font-size:5rem;
+    color:#0173B6  ;
+
+    }
+
+
+
+
+    .moor{
+        padding-top:2px;
+        padding-left: 5rem;
+        font-size: 4.5rem;
+        color:#0173B6  ;
+        font-family: 'Courier New', ;
+        font-weight: 10rem;
+    }
+    .moor:hover{
+        color: red;
+        cursor: pointer;
+    }
+
+       .word{
+           padding-top: 3px;
+           padding-left: 1rem;
+           font-style: normal;
+           font-size: 30px;
+       }
+
+       .button_1{
+           border-radius: 10px;
+           height: 3rem;
+           width: 200px;
+           margin-top: 6rem;
+           margin-left: 20rem;
+           background-color: #0173B6;
+           color:white;
+           font-family: 'Courier New', Courier, monospace;
+           font-weight: 2rem;
+       }
+
+
+       
+       .button_1:hover{
+           background-color: #F2F8F4;
+           color: blue;
+           cursor: pointer;
+       }
+        .col2{
+            flex: 1;
+            padding: 24px 50px;
+            height: 40rem;
+            width: 30rem;
+            margin: 50px 25px;
+            background: #F2F8F4;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-left: 20rem;
+            margin-top: 5rem;
+             
+        }
+        
+.mail{
+    padding-top: 5rem;
+    margin-left: 13rem;
+  font-style: italic;
+  justify-content: right;
+  font-size: 25px;
+}
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+}

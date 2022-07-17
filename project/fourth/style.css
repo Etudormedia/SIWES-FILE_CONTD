@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --primary-color: #063647;
+    --secondary-color:#052d3d;
+    --tertiary-color:#0E282E;
+  
+}
+
+  .adj{
+      margin-top: 10px;
+  }  
+
+.head{
+    height: 40rem;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+header{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+     align-items: center;
+    justify-content:space-evenly;
+    padding: 1rem;
+    margin-right: 30rem;
+   position: fixed;
+    
+}
+.logo{
+    margin-right: 70rem;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+ul{
+    display: flex;
+  margin-right: 10rem;
+   
+}
+li{
+    display: inline;
+    margin-left: 1rem;
+    padding-top: 5rem
+}
+li a{
+    text-decoration: none;
+    padding: 0.7rem;
+    font-size: 20px;
+    color: white;
+}
+li a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+.pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-left: 4rem  ;
+}
+#img{
+    height: 28rem;
+     align-items:center;
+     justify-content: right;
+     margin-top: 5rem;
+     box-shadow: 10px 10px 10px black;
+     margin-left: 2rem;
+     padding-top: 3rem;
+     animation-name: slidein;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    position:;
+}
+.na{
+font-size: 30px;
+color: aliceblue;
+animation-name: colorchange;
+animation-duration: 3s;
+animation-iteration-count:;
+animation-timing-function: ease-in;
+}
+.school,.project,.school2{
+    font-size: 30px;
+color: aliceblue;
+}
+.name{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: ;
+    animation-timing-function: ease-in;
+}
+.contents{
+margin-left: 5rem;
+}
+.second{
+  
+    height: 55rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+.programs{
+       position:;
+     
+}
+.dot{
+    
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+    
+}
+.project{
+   padding-left: 5rem;
+    padding-top: 3rem;
+    color: aliceblue;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    
+}
+.images:hover{
+    cursor: pointer;
+    transform: skew(30deg);
+}
+n{
+    color: aliceblue;
+    font-size: larger;
+    padding-top: 5rem;
+}
+.images2{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-evenly;
+}
+.images2:hover{
+    cursor: pointer;
+    transform: translateY(20px);
+}
+.third{
+    height:35rem;
+    width: 100%;
+    background-color: var(--tertiary-color);
+}
+.school{
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+.school2{
+    padding-left: 2.5rem;
+}
+
+.quali{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: aliceblue;
+}
+.sub{
+    display:flex;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: x-large;
+}
+m{
+    color: aliceblue;
+}
+button{
+    display: flex;
+    margin-left: 45rem;
+    height:3rem;
+    width: 13rem;
+    margin-top: 7rem;
+    border-radius: 10rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+}
+button:hover{
+    background-color: aliceblue;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.fourth{
+    height: 4rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+.sub2{
+    margin-top: 2rem;
+}
+.media{
+   margin-left: 80rem;
+   color: beige;
+  
+}
+
+@keyframes colorchange{
+    0%{
+        color: var(--primary-color);
+        top: 0%;
+        
+    }
+    25%{
+        color: rgb(117, 186, 144);
+        font-size: 5rem;
+    }
+    50%{
+        color: rgb(37, 128, 37);
+        font-size: 1.5rem;
+    }
+    
+    100%{
+        color: var(--tertiary-color);
+        font-size: 0rem;
+        
+    }
+}
+
+@keyframes  slidein{
+    0%{
+        bottom: 0%;
+
+    }
+    100%{
+        bottom: 100%;
+    }
+}

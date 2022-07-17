@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 40rem;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+header{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+     align-items: center;
+    justify-content:space-evenly;
+    padding: 1rem;
+    margin-right: 30rem;
+   position: fixed;
+    
+}
+.head{
+    height: 94vh;
+  background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376));
+  background: linear-gradient(to right, #864ddf, #203376);
+}
+
+ul{
+    display: flex;
+  margin-right: 10rem;
+   
+}
+li{
+    display: inline;
+    margin-left: 1rem;
+    padding-top: 5rem
+}
+li a{
+    text-decoration: none;
+    padding: 0.7rem;
+    font-size: 25px;
+    color: white;
+    
+}
+li a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.logo{
+    margin-right: 70rem;
+    justify-content: space-between;
+    padding-top: 4rem;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.search{
+    padding-top: 7rem;
+}
+
+.hero{
+    margin-top: 50reem;
+   left: 50rem;
+}
+
+.contents{
+    display: flex;
+    padding-top: 22rem;
+    justify-content: space-evenly;
+}
+
+.hero{
+    padding-left: 10rem;
+  
+}
+.hello{
+    font-size: 100px;
+    color: white;
+}
+
+.name{
+    font-size: 120px;
+    color: white;
+}
+
+.web{
+    font-size: 80px;
+    color: white;
+}
+
+.dot{
+    
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+    
+}
+
+n{
+    color: white;
+    font-size: 40px;
+    padding-top: 5rem;
+}
+
+#im{
+    border-radius: 5rem;
+}
+
+.welcome{
+    
+    padding-top: 5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+hr{
+    width: 28%;
+   
+}
+
+.col2{
+   margin-left: 69rem;
+}
+.col3{
+    margin-left: 50rem;
+    font-size: 25px;
+}
+
+.cont{
+    margin-left : 7rem;
+}
+.btn-box{
+  margin-left: 80rem;
+  margin-top: 4rem;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 30px;
+  background-color: #203376;
+  color: #f9fcfb;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.btn-box:hover{
+    cursor: pointer;
+background-color: #864ddf;
+}
+
+.sec{
+   display: flex;
+}
+.col4{
+    
+    height: 70rem   ;
+    width: 100vw;
+    background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376));
+  background: linear-gradient(to right, #864ddf, #203376);
+  margin-top: 7rem;
+}
+.items{
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #F2F8F4;
+    height: 43rem;
+    width: 40rem;
+
+}
+#img10{
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+p1{
+    margin-left: 9rem;
+    color: #864ddf;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+.p1{
+    margin-left: 12rem;
+}
+p2{
+    margin-left: 12rem;
+    color: #864ddf;
+    font-weight: bolder;
+    font-size: 30px;
+}
+P3{
+    margin-left: 4rem;
+    color:rgba(8, 101, 241, 0.89);
+    font-weight: bolder;
+}
+p4{
+    padding-left: 4rem;
+}
+.n{
+    padding-left: 1.2rem;
+}
+.n1{
+    padding-left: 1rem;
+}
+.n2{
+    padding-left: 1.5rem;
+}
+h2{
+    padding-top: 3rem;
+    margin-left: 15rem;
+    color: #864ddf;
+    font-weight: 50px;
+}
+.h2{
+    padding-top: 9rem;
+}
+button{
+    margin-top: 2rem;
+    margin-left:14rem;
+    border-radius: 7px;
+    height: 35px;
+    width: 100px;
+    background-color: #ffffff;
+border-color: #864ddf;
+color: #864ddf;
+
+}
+.btt{
+    margin-top: 9rem;
+}
+.free_trial{
+    background-color:#864ddf ;
+    color: #ffffff;
+    font-weight: normal;
+    border-radius: 7px;
+    height: 35px;
+    width: 100px;
+    margin-top: 4rem;
+}
+.first{
+    background-color: #ffffff;
+   
+
+   
+}
+.second{
+    background-color: #ffffff;
+}
+.third{
+
+    background-color:#ffffff;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30rem;
+}
+.container2{
+    display: flex;
+   margin-top: 5rem;
+}
+hr{
+     width: 15rem;
+     margin-left: 2.5rem;
+background-color: #ccc;
+height: 1px;
+border: none;
+}
+.hrr{
+    margin-top: 5rem;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+.contact{
+    height: 20%;
+    width: 100vw;
+    background-color: #864ddf;
+    margin-top: 7rem;
+}
+.footer{
+  font-size: 40px;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  padding-top: 3rem;
+}
+.footimg{
+    text-align: center;
+    padding-top: 2rem;
+}
+.phones{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:2rem ;
+    font-style: italic;
+}
